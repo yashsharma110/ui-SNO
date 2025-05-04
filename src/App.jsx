@@ -18,9 +18,9 @@ import PricingTable from "./components/PricingTable";
 function App() {
   return (
     <div className="overflow-x-hidden">
-      <div className="px-[120px]">
+      <div className="sm:px-[16px] md:px-[40px] lg:px-[120px] xl:px-[120px] px-[60px]">
         <Navbar />
-        <div className="w-full overflow-y-auto mb-[120px]">
+        <div className="overflow-y-auto mb-[120px]">
           <LandingPage />
         </div>
         <div className="mb-[120px]">
@@ -39,7 +39,7 @@ function App() {
             </div>
           </AutoScrollSection>
         </div>
-        <div className="w-full h-screen overflow-y-auto mb-[120px]">
+        <div className="w-full h-screen overflow-hidden mb-[120px]">
           <AdvantagesOverview />
         </div>
         <div className="w-full h-screen">
@@ -50,13 +50,13 @@ function App() {
         </div>
       </div>
 
-      {/* FrictionlessOverview outside px-[120px] wrapper */}
-      <div className="mb-[120px]">
+      {/* FrictionlessOverview outside px wrapper */}
+      <div className="sm:px-[16px] md:px-[40px] lg:px-[80px] xl:px-[120px] mb-[50px]">
         <FrictionlessOverview />
       </div>
 
-      {/* Other sections can go back inside if needed */}
-      <div className="px-[120px]">
+      {/* Other sections */}
+      <div className="sm:px-[16px] md:px-[40px] lg:px-[80px] xl:px-[120px] px-[60px]">
         <div className="mb-[120px]">
           <ContactForm />
         </div>

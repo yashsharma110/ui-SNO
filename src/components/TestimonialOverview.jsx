@@ -16,7 +16,7 @@ const TestimonialOverview = () => {
 
           {/* Right: Testimonial Box */}
           <div className="flex-1 bg-[#f3f3f3] p-[0] flex flex-col justify-between w-full min-h-[300px] font-[Satoshi]">
-            <p className="text-[clamp(1.25rem,3vw,2.074rem)] leading-[1.4] m-[0]">
+            <p className="text-[clamp(1.25rem,3vw,1.8rem)] leading-[1.4] m-[0]">
               While we were clocking 20K invoices a month & faced friction in
               operations, their expertise not only helped save thousands of
               dollars, but also brought down the manual headcount from 8 to just
@@ -25,13 +25,13 @@ const TestimonialOverview = () => {
 
             {/* Author Info */}
             <div className="mt-[10px]">
-              <p className="text-[clamp(1.25rem,3vw,2.074rem)] font-[900] m-[0]">
+              <p className="text-[clamp(1.25rem,3vw,1.8rem)] font-[900] m-[0]">
                 Mr Hans
               </p>
-              <p className="text-[clamp(1.25rem,3vw,2.074rem)] font-[900] mt-[10px] m-[0]">
+              <p className="text-[clamp(1.25rem,3vw,1.8rem)] font-[900] mt-[10px] m-[0]">
                 CEO
               </p>
-              <p className="text-[clamp(1.25rem,3vw,2.074rem)] font-[900] mt-[10px] m-[0]">
+              <p className="text-[clamp(1.25rem,3vw,1.8rem)] font-[900] mt-[10px] m-[0]">
                 Kontinue
               </p>
             </div>

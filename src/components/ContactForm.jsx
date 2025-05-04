@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="w-full px-[0] md:px-[0] lg:px-[0] max-w-[1200px] mx-auto font-[Satoshi] flex flex-row lg:flex-row flex-wrap gap-[32px] items-start justify-start">
+    <div className="w-full max-w-[1200px] mx-auto font-[Satoshi] flex flex-row lg:flex-row flex-wrap gap-[32px] items-start justify-start mt-[120px]">
       {/* Heading */}
       <h1 className="text-[clamp(2rem,4vw,2.986rem)] font-[900] m-[0] leading-[1.36] w-full font-[Satoshi]">
         Get in Touch// Simplify your Invoice Processing

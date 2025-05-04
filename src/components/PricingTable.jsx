@@ -47,7 +47,7 @@ const PricingTable = () => {
         Our Pricing
       </h2>
 
-      <div className="w-full overflow-x-auto">
+      <div className="w-full flex flex-wrapjustify-center overflow-x-auto">
         <div className="min-w-[768px] md:min-w-full grid grid-cols-3 text-[1.2rem] font-[400] gap-y-[12px] gap-x-[20px] mx-auto font-[Satoshi]">
           <div className="font-[900] text-[clamp(1.5rem,3vw,2rem)] font-[Satoshi]">
             Features

@@ -2,7 +2,7 @@ import React from "react";
 
 const AdvantagesOverview = () => {
   return (
-    <div className="w-full h-screen bg-white flex flex-row items-center justify-start box-border font-[Satoshi] overflow-auto sm:overflow-scroll">
+    <div className="w-full h-[100%] bg-white flex flex-row items-center justify-start box-border font-[Satoshi] overflow-hidden sm:overflow-scroll">
       {/* Left side content */}
       <div className="w-full max-w-[700px] flex flex-col justify-start overflow-auto sm:overflow-scroll font-[Satoshi]">
         {/* Heading */}

@@ -10,23 +10,23 @@ const LandingHero = () => {
       <div className="absolute top-[100%] left-[80%] w-[160px] h-[160px] bg-[#fff] rounded-full opacity-50 blur-[40px] transform -translate-x-1/2 -translate-y-1/2"></div>
 
       {/* Main Content */}
-      <div className="relative text-[#fff] flex flex-col items-start max-w-[1000px] w-full pl-[120px] pt-[60px] pr-[120px] m-[0] font-[Satoshi]">
+      <div className="relative text-[#fff] flex flex-col items-start max-w-[1000px] w-full pl-[65px] pt-[30px] pr-[120px] m-[0] font-[Satoshi]">
         <h1 className="text-[clamp(1.75rem,5vw,2.986rem)] font-extrabold leading-snug m-0 font-[Satoshi]">
           Experience a{" "}
           <span className="italic font-normal text-[#ccc] font-[Satoshi]">frictionless</span>{" "}
           future of finance operations
         </h1>
 
-        <p className="text-[clamp(1.25rem,4.5vw,2.488rem)] m-[0] sm:mt-[54px] font-[Satoshi]">
+        <p className="text-[clamp(1.25rem,4.5vw,2.1rem)] m-[0] sm:mt-[54px] font-[Satoshi]">
           An Invoice processor built for speed, precision and reimagined without
           bottlenecks
         </p>
 
         <div className="mt-[54px] sm:mt-[54px] flex gap-[16px] flex-wrap">
-          <button className="w-[137px] h-[57px] bg-[#ccc] text-black text-[1rem] leading-[1.37] px-6 py-4 border-none cursor-pointer font-[Satoshi]">
+          <button className="w-[137px] h-[57px] bg-[#ccc] text-[#000] text-[1rem] leading-[1.37] px-6 py-4 border-none cursor-pointer font-[Satoshi]">
             Contact Us
           </button>
-          <button className="w-[137px] h-[57px] bg-white text-black text-[1rem] leading-[1.37] px-6 py-4 border-none cursor-pointer font-[Satoshi]">
+          <button className="w-[137px] h-[57px] bg-#fff[] text-[#000] text-[1rem] leading-[1.37] px-6 py-4 border-none cursor-pointer font-[Satoshi]">
             Contact Us
           </button>
         </div>
