@@ -1,4 +1,5 @@
 import React from "react";
+import "./LandingPage.css"; // Assuming you have a CSS file for styles
 
 const LandingOverview = () => {
   return (
@@ -6,7 +7,7 @@ const LandingOverview = () => {
       {/* Top Section */}
       <div className="flex flex-wrap w-[100%] min-h-auto gap-[50px] md:flex-nowrap md:min-h-[363px] md:gap-[20px]">
         {/* Left Content */}
-        <div className="flex-[1_1_50%] h-auto px-[8px] sm:px-[4px] md:px-[16px]">
+        <div className="flex-[1_1_50%] h-auto px-[8px] sm:px-[4px] md:px-[16px] gap-[124px]">
           <h1 className="text-[2.986rem] font-black leading-[1.25] sm:text-[1.5rem] sm:leading-[1.2] md:text-[2.986rem] md:leading-[1.37]">
             Absolute{" "}
             <span className="italic font-[50] text-[#333]">Accuracy</span>{" "}
@@ -74,7 +75,7 @@ const LandingOverview = () => {
               <br />
               companies using SNO
             </p>
-            <div className="flex flex-wrap justify-between md:justify-start gap-[50px] sm:gap-[10px] md:gap-[0px] bg-[#000] text-[league] px-[8px] p-[0] m-[0]">
+            <div className="logos-container flex flex-wrap justify-between sm:flex-row md:justify-start gap-[50px] sm:gap-[10px] md:gap-[0px] bg-[#000] text-[league] px-[8px] p-[0] m-[0]">
               {[
                 "Kontinu Consultancy B.V.",
                 "KPMG",
@@ -84,7 +85,7 @@ const LandingOverview = () => {
               ].map((name, idx) => (
                 <span
                   key={idx}
-                  className="inline-block text-[2.3rem] sm:text-[1.5rem] md:text-[2.986rem] text-[#fff] font-[400] whitespace-nowrap m-[0] p-[0]"
+                  className="logo-item text-[2.3rem] sm:text-[1.5rem] md:text-[2.986rem] text-[#fff] font-[400] m-[0] p-[0]"
                 >
                   {name}
                 </span>
