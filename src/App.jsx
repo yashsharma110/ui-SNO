@@ -63,7 +63,7 @@ function App() {
         <div className="mb-[120px]">
           <PricingTable />
         </div>
-        <div className="mb-[120px]">
+        <div className="mb-[0]">
           <Footer />
         </div>
       </div>
